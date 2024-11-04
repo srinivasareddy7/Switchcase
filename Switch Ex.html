@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<h1 style="color:blueviolet;">Switchcase Example Task</h1>
+<body>
+    <script>
+        let Name=prompt("Enter Your Name");
+        let Marks=prompt("Enter Your Marks");
+        switch(true)
+{
+    case Marks> 92 && Marks<= 100:
+        Result=" You Will Get A+ Grade" 
+    break;
+
+    case Marks > 85 && Marks <= 92:
+        Result=" You Will Get A Grade" 
+    break;
+
+    case Marks > 78 && Marks<= 85:
+        Result=" You Will Get B Grade" 
+    break;
+
+    case Marks > 65 && Marks<= 78:
+        Result=" You Will Get C Grade" 
+    break;
+   
+    break;
+    default:
+        Result="Please Enter Your Marks"
+        break;
+}
+
+     document.write("Hello" + Namw +"<h2>" +Result+ "<h2>")
+    </script>
+</body>
+</html>
